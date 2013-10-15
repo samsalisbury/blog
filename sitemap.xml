@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://samsalisbury.github.io/blog/blog/2013/10/14/hello/</loc>
+        <loc>http://blargles.com/blog/2013/10/14/hello/</loc>
         <lastmod>2013-10-14T17:23:20+01:00</lastmod>
     </url>
     <url>
-        <loc>http://samsalisbury.github.io/blog/blog/archives/</loc>
+        <loc>http://blargles.com/blog/archives/</loc>
         <lastmod>2013-10-14T17:23:20+01:00</lastmod>
     </url>
     <url>
-        <loc>http://samsalisbury.github.io/blog/</loc>
+        <loc>http://blargles.com/</loc>
         <lastmod>2013-10-14T17:23:20+01:00</lastmod>
     </url>
     <url>
-        <loc>http://samsalisbury.github.io/blog/robots.txt</loc>
+        <loc>http://blargles.com/robots.txt</loc>
         <lastmod>2013-10-14T13:30:53+01:00</lastmod>
     </url>
 </urlset>

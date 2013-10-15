@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://samsalisbury.github.io/blog/sitemap.xml 
+Sitemap: http://blargles.com/sitemap.xml 
