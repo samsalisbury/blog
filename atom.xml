@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Code, lies, and blargles.]]></title>
-  <link href="http://blargles.com/atom.xml" rel="self"/>
-  <link href="http://blargles.com/"/>
-  <updated>2013-10-16T11:13:01+01:00</updated>
-  <id>http://blargles.com/</id>
+  <link href="http://blrgl.com/atom.xml" rel="self"/>
+  <link href="http://blrgl.com/"/>
+  <updated>2013-10-16T14:48:44+01:00</updated>
+  <id>http://blrgl.com/</id>
   <author>
     <name><![CDATA[Sam Salisbury]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello, blog.]]></title>
-    <link href="http://blargles.com/blog/2013/10/14/hello/"/>
+    <link href="http://blrgl.com/blog/2013/10/14/hello/"/>
     <updated>2013-10-14T16:26:00+01:00</updated>
-    <id>http://blargles.com/blog/2013/10/14/hello</id>
+    <id>http://blrgl.com/blog/2013/10/14/hello</id>
     <content type="html"><![CDATA[<p>Over the past few years, I&rsquo;ve made copious notes on coding, software delivery, agile practices, and other <del>nerdy</del> exciting things. Most of these are locked up in private notes, in emails, or just rattling around my brain, and serving no useful purpose to anyone.</p>
 
 <p>Now I find myself in the middle of a break in between jobs&mdash;a <em>very</em> rare two weeks off work, at home in London. I&rsquo;ve done all the household chores imaginable, I&rsquo;ve <a href="http://battlehack.org/london/">attended Battle Hack</a>, I&rsquo;ve been to visit family, I&rsquo;ve finally <a href="http://www.raspbmc.com/">set up RaspBMC</a> and <a href="http://en.alexnogard.com/install-openvpn-raspberry-pi-wheezy-debian/">installed OpenVPN on my Raspberry Pi</a>. I&rsquo;ve started to get involved with <a href="http://www.rapidftr.com/">RapidFTR</a> development. I&rsquo;ve been occasionally contributing to <a href="https://github.com/samsalisbury/modern-skins">some</a> <a href="https://github.com/samsalisbury/righteous-git-hooks">projects</a> on GitHub. I still have a lot of free time. I can&rsquo;t put it off any longer. Welcome, world, to some extra <a href="http://en.wikipedia.org/wiki/Information_pollution">informational pollution</a>, and maybe the odd interesting thing. Courtesy of <a href="https://twitter.com/samsalisbury">yours</a> <a href="http://uk.linkedin.com/in/samsalisbury/">truly</a>.</p>
