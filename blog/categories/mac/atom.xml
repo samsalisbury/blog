@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Code, lies, and blargles.]]></title>
-  <link href="http://blrgl.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Mac | Code, lies, and blargles.]]></title>
+  <link href="http://blrgl.com/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://blrgl.com/"/>
   <updated>2013-10-18T18:40:26+01:00</updated>
   <id>http://blrgl.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://blrgl.com/blog/2013/10/18/migrating-to-macbook-review/"/>
     <updated>2013-10-18T10:38:00+01:00</updated>
     <id>http://blrgl.com/blog/2013/10/18/migrating-to-macbook-review</id>
-    <content type="html"><![CDATA[<p><em>This <a href="">MacBook Pro with Retina Display review</a> is part 1 of a <a href="http://blrgl.com/blog/series#migrating-from-windows-to-mac">series on migrating from Windows to Mac</a>.</em></p>
+    <content type="html"><![CDATA[<p><em>This <a href="">MacBook Pro with Retina Display review</a> is part 1 of a <a href="/blog/series#migrating-from-windows-to-mac">series on migrating from Windows to Mac</a>.</em></p>
 
 <blockquote><p>Six months ago, I was lucky enough to take over development of an iOS App. This meant I needed <a href="http://www.apple.com/macbook-pro/">a Mac</a>. <em>I was a die-hard .NET developer, using Dell/Windows machines almost exclusively for the past 20 years. In short, I had pretty much no idea what to expect.</em> I wasn&rsquo;t convinced this would be a good idea&hellip; How can a developer, <em>a Microsoft developer,</em> live with a strange keyboard, an unfamiliar OS, shiny skeuomorphic apps, and, did I mention, a strange keyboard?! <em>It wasn&rsquo;t half as bad as I expected&hellip;</em></p></blockquote>
 
@@ -124,17 +124,6 @@ on this topic. But for me, it&rsquo;s the experience that counts. And there&rsqu
 <p><strong>My recommendation: get one, or, better, get your work to get you one! The MacBook Pro with Retina Display is the most productive development workstation I have ever used.</strong></p>
 
 <p><em>Disclaimer: I have written all this from memory, as I&rsquo;m currently in between Macs; thus the frequent use of past tense. Comments/trolls welcome ;)</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello, blog.]]></title>
-    <link href="http://blrgl.com/blog/2013/10/14/hello/"/>
-    <updated>2013-10-14T16:26:00+01:00</updated>
-    <id>http://blrgl.com/blog/2013/10/14/hello</id>
-    <content type="html"><![CDATA[<p>Over the past few years, I&rsquo;ve made copious notes on coding, software delivery, agile practices, and other <del>nerdy</del> exciting things. Most of these are locked up in private notes, in emails, or just rattling around my brain, and serving no useful purpose to anyone.</p>
-
-<p>Now I find myself in the middle of a break in between jobs&mdash;a <em>very</em> rare two weeks off work, at home in London. I&rsquo;ve done all the household chores imaginable, I&rsquo;ve <a href="http://battlehack.org/london/">attended Battle Hack</a>, I&rsquo;ve been to visit family, I&rsquo;ve finally <a href="http://www.raspbmc.com/">set up RaspBMC</a> and <a href="http://en.alexnogard.com/install-openvpn-raspberry-pi-wheezy-debian/">installed OpenVPN on my Raspberry Pi</a>. I&rsquo;ve started to get involved with <a href="http://www.rapidftr.com/">RapidFTR</a> development. I&rsquo;ve been occasionally contributing to <a href="https://github.com/samsalisbury/modern-skins">some</a> <a href="https://github.com/samsalisbury/righteous-git-hooks">projects</a> on GitHub. I still have a lot of free time. I can&rsquo;t put it off any longer. Welcome, world, to some extra <a href="http://en.wikipedia.org/wiki/Information_pollution">informational pollution</a>, and maybe the odd interesting thing. Courtesy of <a href="https://twitter.com/samsalisbury">yours</a> <a href="http://uk.linkedin.com/in/samsalisbury/">truly</a>.</p>
 ]]></content>
   </entry>
   
