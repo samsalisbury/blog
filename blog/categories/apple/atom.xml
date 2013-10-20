@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Apple | Code, lies, and blargles.]]></title>
   <link href="http://blrgl.com/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://blrgl.com/"/>
-  <updated>2013-10-18T18:40:26+01:00</updated>
+  <updated>2013-10-20T20:41:37+01:00</updated>
   <id>http://blrgl.com/</id>
   <author>
     <name><![CDATA[Sam Salisbury]]></name>
@@ -14,6 +14,98 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Migrating to OS X&mdash;Review]]></title>
+    <link href="http://blrgl.com/blog/2013/10/20/migrating-to-os-x-review/"/>
+    <updated>2013-10-20T18:00:00+01:00</updated>
+    <id>http://blrgl.com/blog/2013/10/20/migrating-to-os-x-review</id>
+    <content type="html"><![CDATA[<p><em>This <a href="">Mac OS X 10.8 Mountain Lion review</a> is part 2 of a <a href="/blog/series#migrating-from-windows-to-mac">series on migrating from Windows to Mac</a>.</em></p>
+
+<blockquote><p>About 6 months ago I (a .NET developer) took over maintenance of an iOS app. This meant I needed to use a Mac, for the first time in 20 years. In order to avoid maintaining 2 separate workstations, I also switched to using OS X as my primary operating system, with Windows in a VM to continue my .NET work. Here&rsquo;s my take on making the switch&hellip;</p></blockquote>
+
+<p>The transition from Microsoft Windows 8 to Mac OS X was not as clear-cut advantageous as the <a href="/blog/2013/10/18/migrating-to-macbook-review">transition from Dell to Apple hardware</a> was. There are some quite strange things for a Windows user to get used to in OS X. However, 6 months into this experiment, and I really don&rsquo;t think I&rsquo;ll ever go back to a pure Windows environment.</p>
+
+<!-- more -->
+
+
+<p>Skip to:<br />
+<strong><a href="#os-x-confusion">The Bad</a></strong>
+ (<a href="#os-x-quitting">quitting</a>
+| <a href="#os-x-fullscreen">fullscreen</a>
+| <a href="#os-x-maximising">maximising</a>
+| <a href="#os-x-snapping">snapping</a>) <br />
+<strong><a href="#os-x-good">The Good</a></strong>
+ (<a href="#os-x-navigation">Mission Control, Exposé and Spaces</a>
+| <a href="#os-x-gestures">Gestures</a>
+| <a href="#os-x-terminal">Terminal</a>) <br />
+<strong><a href="#os-x-conclusion">The Conclusion</a></strong></p>
+
+<h2><i class="icon-apple"></i> <a id="os-x"></a> The Operating System</h2>
+
+<p><strong>Mac OS X (10.8) Mountain Lion</strong> running on a 15&ndash;inch MacBook Pro with Retina Display, 16GB RAM/512GB SSD/2.7GHz Core i7</p>
+
+<p><a href="http://en.wikipedia.org/wiki/OS_X_Mountain_Lion">OS X Mountain Lion</a> is the first Mac OS I&rsquo;ve ever used in a work context, and the only one I&rsquo;ve used as an adult. Prior to this my only real experience of using a Mac was at school, as an 8 or 9 year old, putting together school newspapers using <a href="http://en.wikipedia.org/wiki/System_7">System 7</a> machines. An experience I barely remember now&hellip;</p>
+
+<p>My very first impressions of this operating system were not all favourable, although it was immediately more visually pleasing than Windows 8. Some of the odd skeuomorphism in the built-in apps was a little jarring, and window management left something to be desired. However, some features were really well implemented&hellip;</p>
+
+<h2><i class="icon-remove"></i> <a id="os-x-confusion"></a> The Bad</h2>
+
+<p>It might be unfair to classify all of the below as objective failures in OS X, some may be more to do with me having 20 years of Windows usage ingrained into my psyche. However, from my perspective the OS could be improved in these areas. So, here is a treatment of my initial frustrations transitioning to OS X. I&rsquo;ve highlighted a few key points that might be useful things to remember for anyone else undertaking the same journey.</p>
+
+<h3><i class="icon-remove-circle"></i> <a id="os-x-quitting"></a> Closing Windows Does Not Terminate Applications</h3>
+
+<p>Conversely, in Windows, you usually expect that closing a program&rsquo;s main window will end the program&rsquo;s main <a href="http://en.wikipedia.org/wiki/Process_(computing)">process</a>. If not, you can always look in the system tray (in fact, the &lsquo;<a href="http://en.wikipedia.org/wiki/Taskbar#Taskbar_elements">notification area</a>&rsquo;) to verify whether the program is really dead or not. In OS X, only certain programs seem to die when you close all their windows. This upset me for about an hour when I realised I had tens of applications running that I thought I&rsquo;d stopped. However, a simple <code>⌥⇥</code> (<code>Option+Tab</code>) shows all running applications. You can then <em>quit</em> each one using a simple <code>⌘Q</code> (<code>Command+Q</code>). Terminating an application in OS X is always known as &lsquo;quitting&rsquo; an application. To <em>quit</em> is to end a process. You can <em>close</em> windows, but you can only <em>quit</em> applications.</p>
+
+<blockquote><p>Note: In OS X, terminating an application is <em>always</em> known as <em>quitting</em> that application. The same terminology applies to processes in general. To <em>quit</em> is to end the process entirely.</p></blockquote>
+
+<h3><i class="icon-resize-full"></i> <a id="os-x-fullscreen"></a> Full-Screen Apps Only Use One Monitor</h3>
+
+<p>This is a very weird decision on the part of Apple. Making an app full-screen will blank out all the other monitors, rendering them useless. In my usual three-monitor setup, this renders the &lsquo;full-screen&rsquo; option totally useless. This issue will be <a href="http://en.wikipedia.org/wiki/OS_X_Mavericks">fixed in the upcoming OS X Mavericks</a> release.</p>
+
+<h3><i class="icon-plus"></i> <a id="os-x-maximising"></a> Maximising Windows Is Inconsistent</h3>
+
+<p>Depending on the program, clicking the green + icon in the top left of a window can variously make the window full-height, full-width and full-height, do nothing at all, or go full-height and some arbitrary width. This seems odd for an otherwise highly consistent user interface, and means I pretty much <em>never use the feature,</em> since I don&rsquo;t know what it&rsquo;s supposed to do. Isn&rsquo;t this one of those things that should be shaved off the design?</p>
+
+<h3><i class="icon-puzzle-piece"></i> <a id="os-x-snapping"></a> There Is No Built-In Window Snapping</h3>
+
+<p>One of <a href="http://windows.microsoft.com/en-GB/windows7/products/features/snap">my favourite features in Windows</a> has been the ability to drag a window to the top, left, or right of the monitor, and have that window either maximise, or snap to the left or right and resize to half the available width. This kind of feature is sadly missing from OS X Mountain Lion. However, there is a brilliant free app called <a href="http://blog.boastr.net/downloads-secondbar-bettertouchtool-2/">Better Touch Tool</a> which adds window snapping, plus loads of other useful features to window management in OS X.</p>
+
+<h2><i class="icon-check"></i> <a id="os-x-good"></a> The Good</h2>
+
+<p>Along with the strange, there are some incredibly well-designed features in OS X, some of which are so good, in fact, that they have permanently altered some of my workflows, and changed my fundamental expectations of an OS. Here are three of the my favourite features in OS X.</p>
+
+<h3><i class="icon-desktop"></i> <a id="os-x-navigation"></a> Mission Control, Exposé, and Spaces</h3>
+
+<p>Mission Control, Exposé, and Spaces (multiple desktops) are the central window and app navigation features in OS X Mountain Lion, and they&rsquo;re really well implemented. <em>Nuf' said.</em> But really, these three core navigation features are game changers to any multi-window workflow. You can swipe four fingers left or right, to access <a href="http://mattgemmell.com/2011/07/27/using-spaces-on-os-x-lion/">as many desktops (sometimes called &lsquo;Spaces&rsquo;)</a> as you need. This is an astonishingly useful feature, especially when you don&rsquo;t have an external monitor. The quickness of a four-finger-swipe-up, to see all open windows and desktops, known as <a href="http://en.wikipedia.org/wiki/Mission_Control_(OS_X)">Mission Control</a>, is also hugely useful. There is also an under-used four-finger-swipe-down gesture to <a href="http://www.apple.com/uk/osx/what-is/gestures.html#gallery-gestures-expose">show all windows belonging to the current application</a>, known as &lsquo;App Exposé&rsquo;.</p>
+
+<p>I am no longer horrified by the idea of working without <a href="http://www.codinghorror.com/blog/2004/06/multiple-monitors-and-productivity.html">multiple</a> <a href="http://www.codinghorror.com/blog/2010/04/three-monitors-for-every-user.html">external</a> <a href="http://www.codinghorror.com/blog/2008/03/does-more-than-one-monitor-improve-productivity.html">monitors</a>.</p>
+
+<h3><i class="icon-hand-up"></i> <a id="os-x-gestures"></a> Usable Gestures</h3>
+
+<p>In OS X, for the first time ever, I use gestures constantly to interact with my work. From the swiping between desktops, to scrolling, zooming, rotating, and the simplicity of &lsquo;two-finger-click&rsquo; to access &lsquo;right-click&rsquo; menus, gestures in OS X are implemented in a way that makes them the quickest and easiest way to accomplish many tasks. The large trackpad means you barely ever need to look down at your hands, and can focus on the screen whilst working.</p>
+
+<h3><i class="icon-terminal"></i> <a id="os-x-terminal"></a> Terminal, the command-line of OS X</h3>
+
+<p><a href="http://www.apple.com/osx/apps/all.html#terminal">Terminal</a> is a huge breath of fresh air coming from the <a href="http://stackoverflow.com/questions/473839/help-me-make-my-windows-cmd-exe-console-work-more-like-a-linux-terminal">neglected Windows command line</a>. For a start, it provides sane, line-aware text selection, allowing you to select text in the same order as it was printed to the output stream. This is unlike the Windows command line&rsquo;s bizarre treatment of text as a <em>table</em> of characters to be selected in a grid. It also has tabs, so you can easily have multiple sessions open at once in the same window.</p>
+
+<p>As a developer, I spend <em>a lot</em> of time on the command line. Having one that works in a sane and useful way is a massive boon. I even use Terminal on OS X to do all my <a href="http://git-scm.com/">Git</a> work when developing inside my Windows VM, by mapping the virtual Windows hard drive to a mount point in OS X. (Parallels Desktop makes this really easy.)</p>
+
+<blockquote><p>As a developer, I spend <em>a lot</em> of time on the command line. Having one that works in a sane and useful way is a massive boon.</p></blockquote>
+
+<h2><i class="icon-thumbs-up"></i> <a id="os-x-conclusion"></a> The Conclusion</h2>
+
+<p>OS X Mountain Lion is a far more accomplished developer OS than Windows 8, especially on a laptop. I can&rsquo;t compare it with previous version of OS X, since this is the first one I&rsquo;ve used, but, coming from Windows, it&rsquo;s pretty much all upside. Usable multiple desktop support, coupled with a sensible command line, are enough by themselves to make this OS the only rational choice for a developer workstation.</p>
+
+<blockquote><p>OS X Mountain Lion is a far more accomplished developer OS than Windows 8, especially on a laptop.</p></blockquote>
+
+<p>The few complaints with respect to window management in OS X are easily mitigated with some free software, notably <a href="http://blog.boastr.net/what-is-bettertouchtool/">Better Touch Tool</a>.</p>
+
+<p><strong>My recommendation: If you&rsquo;re currently using Windows for all your development work, no matter whether you&rsquo;re a Microsoft .NET developer, or any other kind of developer, get a Mac with OS X Mountain Lion. If you need to use Windows for development work, get <a href="http://www.parallels.com/products/desktop/">Parallels Desktop</a>.</strong></p>
+
+<p>Thanks for reading, I&rsquo;d love to hear any feedback in the comments below :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Migrating to MacBook&mdash;Review]]></title>
     <link href="http://blrgl.com/blog/2013/10/18/migrating-to-macbook-review/"/>
     <updated>2013-10-18T10:38:00+01:00</updated>
@@ -21,6 +113,9 @@
     <content type="html"><![CDATA[<p><em>This <a href="">MacBook Pro with Retina Display review</a> is part 1 of a <a href="/blog/series#migrating-from-windows-to-mac">series on migrating from Windows to Mac</a>.</em></p>
 
 <blockquote><p>Six months ago, I was lucky enough to take over development of an iOS App. This meant I needed <a href="http://www.apple.com/macbook-pro/">a Mac</a>. <em>I was a die-hard .NET developer, using Dell/Windows machines almost exclusively for the past 20 years. In short, I had pretty much no idea what to expect.</em> I wasn&rsquo;t convinced this would be a good idea&hellip; How can a developer, <em>a Microsoft developer,</em> live with a strange keyboard, an unfamiliar OS, shiny skeuomorphic apps, and, did I mention, a strange keyboard?! <em>It wasn&rsquo;t half as bad as I expected&hellip;</em></p></blockquote>
+
+<!-- more -->
+
 
 <p>Skip to:
 <a href="#hardware">Hardware</a>
